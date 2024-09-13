@@ -1,0 +1,39 @@
+/* Custom styles for your portfolio */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000 !important;
+}
+
+header {
+    background-color: black;
+    background-size: cover;
+    background-position: left;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #1a202c;
+}
+
+.footer p {
+    margin: 0;
+}
